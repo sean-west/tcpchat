@@ -2,8 +2,8 @@
 
 ## install
 ```
-git clone https://github.com/sean-west/wschat.git
-cd wschat
+git clone https://github.com/sean-west/tcpchat.git
+cd tcpchat
 npm install
 ```
 
