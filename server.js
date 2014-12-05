@@ -13,6 +13,11 @@ var server = net.createServer(function(connection) {
     })
   });
 
+  connection.on('close', function() {
+    var index = connections.indexOf(connection);
+    connections.splice(index, 1);
+  })
+
   connections.push(connection);
 });
 
