@@ -4,7 +4,6 @@
 ```
 git clone https://github.com/sean-west/tcpchat.git
 cd tcpchat
-npm install
 ```
 
 ## Server
